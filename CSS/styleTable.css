@@ -1,0 +1,76 @@
+body {
+    margin: 5px 6px 7px;
+    background-color: #f7f7f7;
+}
+
+/*    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Raleway', sans-serif;*/
+
+#header {
+    height: 25em;
+    background-image: url("../Images/Bu-PZLnQ.jpeg");
+    background-position: center;
+}
+
+#header > h1 { /*Только к тем кто дети*/ /*Если просто пробел #header h1 - то ко всем h1*/
+    font-size: 6.25em;
+    margin: 0;
+    text-align: center;
+    padding-top: 1.5em;
+    font-family: 'Covered By Your Grace', cursive;
+    color: rgba(3, 150, 100, 0.5);
+}
+
+#main > table {
+    margin: 0;
+}
+
+#main td {
+    list-style: none;
+    margin: 3em 0;
+    border-bottom: 3px solid #e4bb97;
+    padding: 0 0.5em 1em;
+/*    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;*/
+}
+
+#main td h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    background-color: #aa8eb5;
+    text-transform: uppercase;
+}
+
+#main td p {
+    font-family: 'Raleway', sans-serif;
+    color: #444; /*= 444444 (444_444)*/
+    font-size: 1.25em;
+    font-weight: 500;
+    text-align: justify; /*выравнивание текста по двум сторон*/
+    text-indent: 2em; /*Красная строка или абзац*/
+    line-height: 1.6;
+    padding-right: 1.6em;
+}
+
+#main td a:link{
+    color: #214e34;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+#main td a:visited{
+    color: violet; /*По дефолту*/
+}
+
+#main td a:hover{
+    color: red; /*При наведении*/
+}
+
+#main td a:active{
+    color: green; /*При нажатии*/
+}
